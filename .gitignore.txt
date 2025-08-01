@@ -1,0 +1,18 @@
+# Archivos de compilación Java
+*.class
+*.jar
+*.msi
+
+# Carpetas generadas por compiladores o jpackage
+/dist/
+/build/
+/out/
+
+# Configuración de Eclipse
+.project
+.classpath
+.settings/
+
+# Configuración de IntelliJ
+.idea/
+*.iml
