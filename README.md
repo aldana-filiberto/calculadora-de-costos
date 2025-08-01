@@ -4,13 +4,16 @@ Este proyecto es una aplicación de escritorio que permite calcular el costo tot
 
 ## 🚀 Tecnologías y herramientas utilizadas
 
-- **Java** (Programación orientada a objetos)
+- **Java 17** (Programación orientada a objetos)
 - **Java Swing** (Interfaz gráfica)
 - **Manejo de archivos**
 - **Eclipse IDE** (estructura de proyecto)
 - **POO** (Clases como `Ingrediente`, `Receta`)
 - **Eventos e interfaces gráficas**
 - **Validaciones y control de entradas del usuario**
+- **Diseño simple y amigable**
+- **Empaquetado con `jpackage` para Windows**
+- **WiX Toolset**
 
 ## 🎯 Funcionalidades principales
 
@@ -23,18 +26,35 @@ Este proyecto es una aplicación de escritorio que permite calcular el costo tot
 ## 📂 Estructura del proyecto
 
 ```text
-calculadora-costos/
-│
-├── src/
+calculadora-de-costos/
+├── dist/                      
+│   └── costos.jar
+├── iconos/                   
+│   └── pastel2.ico
+├──src/
 │   ├── calculadora/
-│   │   ├── Ingrediente.java       # Modelo de ingrediente
-│   │   └── Receta.java            # Modelo de receta y lógica de cálculo
+│   │   ├── Ingrediente.java       
+│   │   └── Receta.java            
 │   └── interfaz/
-│       └── CalculadoraInterface.java  # Interfaz gráfica con Java Swing
-│
-├── .classpath, .project, .settings/  # Archivos del entorno Eclipse
-└── README.md
+│   |    └── CalculadoraInterface.java  
+├── README.md                 
+├── .gitignore
+├── build/        
+    └── CalculadoraDeCostos-1.0.0.msi
 ```
+
+## 🖥 Instalador para Windows
+
+Podés descargar el instalador `.msi` desde la sección de releases:
+
+✅ No requiere instalación de Java  
+🖥 Ejecutable para Windows (.exe)  
+📥 [Descargar ejecutable](https://github.com/aldana-filiberto/calculadora-de-costos/releases/tag/v1.0.0)
+
+1. Descargar el `.msi`
+2. Hacer doble clic
+3. ¡Listo!
+
 
 ## 🔧 Cosas por mejorar
 - 💾 Persistencia de datos: actualmente los ingredientes y recetas no se guardan entre sesiones. Implementar almacenamiento en archivos o base de datos (por ejemplo, SQLite) mejoraría la utilidad práctica.
@@ -47,3 +67,8 @@ calculadora-costos/
 ---
 🧠 Autoría
 - Proyecto personal desarrollado para facilitar el control de costos y márgenes en la elaboración de productos a pequeña escala. Ideal como herramienta de apoyo para emprendedores o uso académico.
+
+
+
+
+

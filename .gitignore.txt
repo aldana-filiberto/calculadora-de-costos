@@ -13,6 +13,4 @@
 .classpath
 .settings/
 
-# Configuración de IntelliJ
-.idea/
-*.iml
+
