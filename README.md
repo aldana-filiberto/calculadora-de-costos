@@ -48,7 +48,7 @@ calculadora-de-costos/
 Podés descargar el instalador `.msi` desde la sección de releases:
 
 ✅ No requiere instalación de Java  
-🖥 Ejecutable para Windows (.exe)  
+🖥 Ejecutable para Windows (.msi)  
 📥 [Descargar ejecutable](https://github.com/aldana-filiberto/calculadora-de-costos/releases/tag/v1.0.0)
 
 1. Descargar el `.msi`
